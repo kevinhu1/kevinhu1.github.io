@@ -390,11 +390,12 @@ fieldset {
 #headerwrap {
 	/* background-color: #00b3fe; */
 	background-color: gray;
-	min-height: 650px;
+	min-height: 724px;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	text-align: center;
 }
+
  
 /* Page Break: Engineering + Design image */
 #engr-design {
@@ -633,7 +634,6 @@ a:hover {
 }
 
 h1.title {
-  margin: 0px 20px 0px;
   font-size: 150px;
   font-weight: bold;
   font-style: bold;
@@ -641,6 +641,17 @@ h1.title {
   text-align: center;
   color:#FFFFFF;
 }
+
+h1.title-sub {
+  margin: 50px 0px 0px;
+  font-size: 150px;
+  font-weight: bold;
+  font-style: bold;
+  font-family:Myriad Pro;
+  text-align: center;
+  color:#FFFFFF;
+}
+
 
 h2.title {
   margin: 30px 20px 10px;
@@ -653,7 +664,7 @@ h2.title {
 }
 
 h3.title {
-  margin: 20px 20px 20px;
+  margin: 20px 20px;
   font-size: 24px;
   font-weight: bold;
   font-style: bold;
@@ -663,7 +674,7 @@ h3.title {
 }
 
 h4.title {
-  margin: -15px 20px 25px;
+  margin: -15px 25px;
   font-size: 20px;
   font-weight: bold;
   font-style: bold;
@@ -673,7 +684,7 @@ h4.title {
 }
 
 h5.title {
-  margin: -10px 20px -10px;
+  margin: -10px -10px;
   font-size: 300px;
   font-weight: bold;
   font-style: bold;

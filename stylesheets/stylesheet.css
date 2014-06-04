@@ -421,6 +421,130 @@ fieldset {
     -o-background-size: cover;
     background-size: cover;
 }
+
+#photo1 {
+	background: url(../images/photo1.png) no-repeat center top;
+	margin-top: 0px;
+	padding-top:25px;
+    padding-bottom:25px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: left
+     center;
+	min-height: 250px;
+	width: 100%;
+	background-color:#EEEEEE;
+	color:#FFFFFF;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#photo2 {
+	background: url(../images/photo2.png) no-repeat center top;
+	margin-top: 0px;
+	padding-top:25px;
+    padding-bottom:25px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: left
+     center;
+	min-height: 250px;
+	width: 100%;
+	background-color:#EEEEEE;
+	color:#FFFFFF;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#photo3 {
+	background: url(../images/photo3.png) no-repeat center top;
+	margin-top: 0px;
+	padding-top:25px;
+    padding-bottom:25px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: left
+     center;
+	min-height: 250px;
+	width: 100%;
+	background-color:#EEEEEE;
+	color:#FFFFFF;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#photo4 {
+	background: url(../images/photo4.png) no-repeat center top;
+	margin-top: 0px;
+	padding-top:25px;
+    padding-bottom:25px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: left
+     center;
+	min-height: 250px;
+	width: 100%;
+	background-color:#EEEEEE;
+	color:#FFFFFF;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#photo5 {
+	background: url(../images/photo5.png) no-repeat center top;
+	margin-top: 0px;
+	padding-top:25px;
+    padding-bottom:25px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: left
+     center;
+	min-height: 250px;
+	width: 100%;
+	background-color:#EEEEEE;
+	color:#FFFFFF;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
  
 #sectionbody1 {
 	/* background-color: #00b3fe; */

@@ -509,7 +509,7 @@ a:hover {
 }
 
 h1.title {
-  margin: 30px 20px 0px;
+  margin: 0px 20px 0px;
   font-size: 150px;
   font-weight: bold;
   font-style: bold;
@@ -519,7 +519,7 @@ h1.title {
 }
 
 h2.title {
-  margin: 20px 20px 10px;
+  margin: 30px 20px 10px;
   font-size: 36px;
   font-weight: bold;
   font-style: bold;
@@ -539,7 +539,7 @@ h3.title {
 }
 
 h4.title {
-  margin: -15px 20px 30px;
+  margin: -15px 20px 25px;
   font-size: 20px;
   font-weight: bold;
   font-style: bold;

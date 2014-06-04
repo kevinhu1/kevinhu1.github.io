@@ -509,7 +509,7 @@ a:hover {
 }
 
 h1.title {
-  margin: 30px 20px 10px;
+  margin: 30px 20px 0px;
   font-size: 150px;
   font-weight: bold;
   font-style: bold;
@@ -538,6 +538,26 @@ h3.title {
   color:#FFFFFF;
 }
 
+h4.title {
+  margin: -15px 20px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: bold;
+  font-family:Myriad Pro;
+  text-align: center;
+  color:#FFFFFF;
+}
+
+h5.title {
+  margin: -10px 20px -10px;
+  font-size: 300px;
+  font-weight: bold;
+  font-style: bold;
+  font-family:Myriad Pro;
+  text-align: center;
+  color:#000;
+}
+
 
 .wrapper {
   width: 675px;
@@ -554,7 +574,16 @@ p.tagline {
   padding: 20px 20px 0;
   color: #fff;
   font-size: 17px;
+  font-family: 'Myriad Pro';
 }
+
+p.tblack {
+  padding: 20px 20px 0;
+  color: #000;
+  font-size: 30px;
+  font-family: 'Myriad Pro';
+}
+
 
 #main {
   margin-top: 20px;

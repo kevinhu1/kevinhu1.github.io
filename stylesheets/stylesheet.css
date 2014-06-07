@@ -7,7 +7,7 @@
  */
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Myriad Pro', sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -564,6 +564,15 @@ img.b {
     background-size: cover;
 }
 
+#gallery {
+	/* background-color: #00b3fe; */
+	background-color: #BBB;
+	min-height: 200px;
+	padding-top: 30px;
+	padding-bottom: 150px;
+	text-align: center;
+}
+
  
 #sectionbody1 {
 	/* background-color: #00b3fe; */
@@ -659,6 +668,25 @@ a:hover {
 	clear: both;
 }
 
+.projecttype {
+	margin-bottom: 10px;
+	font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	text-transform: none;
+	color: #000;
+}
+
+.projecttitle {
+	margin-bottom: 100px;
+	font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: bold;
+	font-weight: bold;
+	text-transform: none;
+	color: #000;
+}
+
 /* headers */
 h1.title {
   font-size: 150px;
@@ -678,6 +706,17 @@ h1.title-sub {
   text-align: center;
   color:#FFFFFF;
 }
+
+h1.magic {
+  margin: 50px 0px 0px;
+  font-size: 150px;
+  font-weight: bold;
+  font-style: bold;
+  font-family:Myriad Pro;
+  text-align: center;
+  color:#FFFFFF;
+}
+
 
 
 h2.title {

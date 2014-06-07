@@ -691,7 +691,13 @@ h2.title {
 }
 
 h2.footer{
-  margin-bottom: 30px;
+  margin: 10px 0px 5px;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: bold;
+  font-family:Myriad Pro;
+  text-align: center;
+  color:#000;
 }
 
 h3.title {

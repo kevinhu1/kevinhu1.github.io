@@ -396,6 +396,24 @@ fieldset {
 	text-align: center;
 }
 
+div.fadehover {
+	position: relative;
+	}
+	
+img.a {
+	left: 0;
+	top: 0;
+	z-index: 10;
+	position: relative;
+	border: 1px solid #999;
+	}
+ 
+img.b {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #999;
+	}
  
 /* Page Break: Engineering + Design image */
 #engr-design {
@@ -633,6 +651,16 @@ a:hover {
   color: #90D355;
 }
 
+/* for div on gallery pages */
+.portfolio{
+	width: 900px;
+	margin-top: 20px;
+	overflow: hidden;
+	clear: both;
+	background-color: #FFF;
+}
+
+/* headers */
 h1.title {
   font-size: 150px;
   font-weight: bold;

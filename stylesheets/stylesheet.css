@@ -657,7 +657,6 @@ a:hover {
 	margin-top: 20px;
 	overflow: hidden;
 	clear: both;
-	background-color: #FFF;
 }
 
 /* headers */
@@ -689,6 +688,10 @@ h2.title {
   font-family:Myriad Pro;
   text-align: center;
   color:#FFFFFF;
+}
+
+h2.footer{
+  margin-bottom: 30px;
 }
 
 h3.title {

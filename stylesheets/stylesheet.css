@@ -568,7 +568,7 @@ img.b {
 	/* background-color: #00b3fe; */
 	background-color: #EEEEEE;
 	min-height: 200px;
-	padding-top: 30px;
+	padding-top: 60px;
 	padding-bottom: 150px;
 	text-align: center;
 }
@@ -577,8 +577,17 @@ img.b {
 	/* background-color: #00b3fe; */
 	background-color: gray;
 	min-height: 30px;
-	padding-top: 75px;
-	padding-bottom: 75px;
+	padding-top: 50px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+#skills{
+	/* background-color: #00b3fe; */
+	background-color: #EEEEEE;
+	min-height: 300px;
+	padding-top: 50px;
+	padding-bottom: 60px;
 	text-align: center;
 }
 
@@ -587,8 +596,8 @@ img.b {
 	/* background-color: #00b3fe; */
 	background-color: gray;
 	min-height: 30px;
-	padding-top: 75px;
-	padding-bottom: 75px;
+	padding-top: 50px;
+	padding-bottom: 60px;
 	text-align: center;
 }
  
@@ -596,21 +605,12 @@ img.b {
 	/* background-color: #00b3fe; */
 	background-color: #EEEEEE;
 	min-height: 30px;
-	padding-top: 75px;
-	padding-bottom: 75px;
+	padding-top: 50px;
+	padding-bottom: 60px;
 	text-align: center;
 }
 
 
-#skills{
-	/* background-color: #00b3fe; */
-	background-color: #EEEEEE;
-	min-height: 300px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	text-align: center;
-}
- 
  
 legend {
   border: 0; /* 1 */
@@ -726,7 +726,6 @@ h1.title-sub {
 }
 
 h2.title {
-  margin: 0px 20px 10px;
   font-size: 36px;
   font-weight: bold;
   font-style: bold;
@@ -736,7 +735,6 @@ h2.title {
 }
 
 h2.title-black {
-  margin: 30px 20px 0px;
   font-size: 36px;
   font-weight: bold;
   font-style: bold;
@@ -796,6 +794,16 @@ h4.subtitle {
   color:#000;
 }
 
+h4.subtitle-black {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: bold;
+  font-family:Myriad Pro;
+  text-align: center;
+  color:#000;
+}
+
 h4.footer {
   margin-top: 10px;
   margin-bottom: 20px;
@@ -833,9 +841,14 @@ h5.title {
 }
 
 p.text {
-  padding: 20px 20px 0;
   color: #fff;
   font-size: 24px;
+  font-family: 'Myriad Pro';
+}
+
+p.subtext {
+  color: #000;
+  font-size: 18px;
   font-family: 'Myriad Pro';
 }
 

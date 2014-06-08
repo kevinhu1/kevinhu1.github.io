@@ -856,6 +856,12 @@ p.text {
   font-family: 'Myriad Pro';
 }
 
+p.text-black {
+  color: #000;
+  font-size: 24px;
+  font-family: 'Myriad Pro';
+}
+
 p.subtext {
   color: #000;
   font-size: 18px;

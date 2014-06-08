@@ -564,6 +564,16 @@ img.b {
     background-size: cover;
 }
 
+
+#contact{
+	/* background-color: #00b3fe; */
+	background-color: gray;
+	min-height: 30px;
+	padding-top: 50px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
 #gallery {
 	/* background-color: #00b3fe; */
 	background-color: #EEEEEE;

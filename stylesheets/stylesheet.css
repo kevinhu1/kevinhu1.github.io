@@ -425,7 +425,7 @@ img.b {
 	background-attachment: relative;
 	background-position: left
      center;
-	min-height: 400px;
+	min-height: 300px;
 	width: 100%;
 	background-color:#EEEEEE;
 	color:#FFFFFF;
@@ -573,6 +573,15 @@ img.b {
 	text-align: center;
 }
 
+#education {
+	/* background-color: #00b3fe; */
+	background-color: gray;
+	min-height: 30px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	text-align: center;
+}
+
  
 #sectionbody1 {
 	/* background-color: #00b3fe; */
@@ -592,6 +601,15 @@ img.b {
 	text-align: center;
 }
 
+
+#skills{
+	/* background-color: #00b3fe; */
+	background-color: #EEEEEE;
+	min-height: 300px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
  
  
 legend {
@@ -718,7 +736,7 @@ h2.title {
 }
 
 h2.title-black {
-  margin: 30px 20px 10px;
+  margin: 30px 20px 0px;
   font-size: 36px;
   font-weight: bold;
   font-style: bold;
@@ -768,14 +786,14 @@ h4.title {
 }
 
 h4.subtitle {
-  margin-top: -15px;
+  margin-top: 0px;
   margin-bottom: -10px;
   font-size: 20px;
   font-weight: bold;
   font-style: bold;
   font-family:Myriad Pro;
   text-align: center;
-  color:#FFFFFF;
+  color:#000;
 }
 
 h4.footer {
@@ -814,7 +832,7 @@ h5.title {
   box-shadow: 0 0 5px #b1b1b1;
 }
 
-p.tagline {
+p.text {
   padding: 20px 20px 0;
   color: #fff;
   font-size: 24px;

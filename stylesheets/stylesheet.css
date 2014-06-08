@@ -797,6 +797,11 @@ h5.title {
   color:#000;
 }
 
+#footerwrap {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #FFF;
+}
 
 .wrapper {
   width: 675px;

@@ -391,7 +391,7 @@ fieldset {
 	/* background-color: #00b3fe; */
 	background-color: gray;
 	min-height: 724px;
-	padding-top: 100px;
+	padding-top: 80px;
 	padding-bottom: 100px;
 	text-align: center;
 }
@@ -568,7 +568,7 @@ img.b {
 	/* background-color: #00b3fe; */
 	background-color: gray;
 	min-height: 30px;
-	padding-top: 50px;
+	padding-top: 80px;
 	padding-bottom: 60px;
 	text-align: center;
 }
@@ -586,7 +586,7 @@ img.b {
 	/* background-color: #00b3fe; */
 	background-color: gray;
 	min-height: 30px;
-	padding-top: 50px;
+	padding-top: 80px;
 	padding-bottom: 60px;
 	text-align: center;
 }
@@ -595,7 +595,7 @@ img.b {
 	/* background-color: #00b3fe; */
 	background-color: #FFF;
 	min-height: 30px;
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 60px;
 	text-align: center;
 }
@@ -782,7 +782,7 @@ h3.footer{
 }
 
 h3.title {
-  margin: 20px 20px;
+  margin: 20px 20px 20px;
   font-size: 24px;
   font-weight: bold;
   font-style: bold;
@@ -802,7 +802,7 @@ h3.button {
 }
 
 h4.title {
-  margin: -15px 25px;
+  margin: -25px 25px -5px;
   font-size: 20px;
   font-weight: bold;
   font-style: bold;
@@ -842,13 +842,23 @@ h4.footer {
 }
 
 h5.title {
-  margin: -10px -10px;
-  font-size: 300px;
+  margin: 0px 0px 0px;
+  font-size: 18px;
   font-weight: bold;
   font-style: bold;
   font-family:Myriad Pro;
   text-align: center;
-  color:#000;
+  color:#FFF;
+}
+
+h6.title {
+  margin: 0px 0px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: bold;
+  font-family:Myriad Pro;
+  text-align: center;
+  color:#FFF;
 }
 
 #footerwrap {
@@ -880,6 +890,13 @@ p.text-black {
   font-family: 'Myriad Pro';
 }
 
+p.subtext-white {
+  color: #FFF;
+  font-size: 18px;
+  font-family: 'Myriad Pro';
+}
+
+
 p.subtext {
   color: #000;
   font-size: 18px;
@@ -891,6 +908,14 @@ p.tblack {
   color: #000;
   font-size: 30px;
   font-family: 'Myriad Pro';
+}
+
+.margin {
+	margin: 20px 0px;
+}
+
+.margin-side {
+	margin: 20px 100px;
 }
 
 

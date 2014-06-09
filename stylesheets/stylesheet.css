@@ -596,7 +596,7 @@ img.b {
 	background-color: #FFF;
 	min-height: 30px;
 	padding-top: 30px;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 	text-align: center;
 }
 
@@ -859,6 +859,17 @@ h6.title {
   font-family:Myriad Pro;
   text-align: center;
   color:#FFF;
+}
+
+
+h6.title-black {
+  margin: 0px 0px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: bold;
+  font-family:Myriad Pro;
+  text-align: center;
+  color:#000;
 }
 
 #footerwrap {

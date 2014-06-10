@@ -6,47 +6,30 @@
 
   <!-- CSS Files -->
   <link rel="stylesheet" href="../stylesheets/stylesheet.css" media="screen"/>
+  <link rel="stylesheet" href="../stylesheets/pygment_trac.css"/>
   <link rel="stylesheet" href="../stylesheets/bootstrap.css" media="screen"/>
+  <link rel="stylesheet" href="../stylesheets/social-buttons.css" media="screen"/>
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   
-  <!-- Fancybox -->
-		<!-- Add jQuery library -->
-		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-
-		<!-- Add fancyBox -->
-		<link rel="stylesheet" href="../stylesheets/jquery.fancybox.css" type="text/css" media="screen" />
-		<script type="text/javascript" src="../javascripts/jquery.fancybox.pack.js"></script>
-		
   <!-- Javascript Files -->
-  
-	<script type="text/javascript">
-	$(document).ready(function() {
-	$(".fancybox").fancybox();
-	});
-	</script>
-
-  
-  
-  
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script type="text/javascript" src="../javascripts/csi.js"></script>	<!-- "include" js -->
   <script type="text/javascript" src="../javascripts/script.js"></script>
   <script src="../javascripts/bootstrap.js"></script>
- 
-  
-  <title>Kevin Kay Who - Magic</title>
+
+  <title>Kevin Kay Who - Miscellaneous Art</title>
   <link rel="shortcut icon" href="../images/code.png">
   
   <meta name="description" content="Portfolio of Kevin Hu">
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  
+
 </head>
 
 <body>
 
 	<!-- include HEADER -->
-	<!-- <div data-include="header.html"></div> -->
+	<!-- <div data-include="header.html"></div>   --> <!-- because can't select active automatically -->
 	<div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation" id="container">
       <div class="container">
         <div class="navbar-header">
@@ -64,8 +47,9 @@
             <li><a href="../magic.html">MAGIC</a></li>
 			<li><a href="../engineering.html">ENGINEERING</a></li>
 			<li><a href="../graphics.html">GRAPHIC DESIGN</a></li>
-			<li class="active"><a href="../photography.html"><b>PHOTOGRAPHY</b></a></li>
-			<li><a href="../arts.html">MISC-ARTS</a></li>
+			<li><a href="../photography.html">PHOTOGRAPHY</a></li>
+			<li class="active"><a href="../arts.html"><b>MISC-ARTS</b></a></li>
+
 			<li class="dropdown">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other <b class="caret"></b></a>
 			  <ul class="dropdown-menu">
@@ -77,17 +61,26 @@
 			  </ul>
 			</li>
           </ul>
-        </div>        
-	  </div>
-	</div>
+        </div>
+  </div>
+</div>
 
 
 	<!-- ******************** Head Wrap ******************** -->
 	<div id="project-head">
 		<div class="container">
-			<h2 class="title">Senior Portraits | <i>Client Work</i></h1>
+			<h2 class="title">Chinese Brush Art | <i>Course Work</i></h1>
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+				<p class="text margin" align="left">
+					<br>ART 320 <i>Chinese Brush Art</i> - University of Hawaii at Manoa
+					<br>Fall 2013
+					<!-- <br>Development: Git -->
+				</p>
+				</div>
+			</div>
 			
-			<p class="subtext-white margin-side">Various shots taken for seniors' graduation portraits.</p>
+			<p class="subtext-white margin-side">Brush techniques covered in classical painting and calligraphy.</p>
 			
 			<h6 class="title">* Click image to enlarge in new tab. Simply press Ctrl+W (Cmd+W on Mac) to close new tab.</h6>
 			<center><img src="../images/code.png" class="img-responsive"></center>
@@ -95,11 +88,11 @@
 	</div><!-- /headerwrap -->
 
 	<!-- ********************* Project Images ****************** -->
-	<div id="project-images">
+		<div id="project-images">
 		<div class="container">
 			<div class="row margin">
 				<div class="col-md-3">
-					<a class="fancybox" rel="group" href="../images/photography/senior-1.png" target="_blank"><img src="../images/photography/senior-1.png" alt="" width="220"/></a> 
+					<a class="fancybox" rel="group" href="../images/arts/chinese-1.png" target="_blank"><img src="../images/arts/chinese-1.png" alt="" width="220"/></a> 
 				</div>
 				<div class="col-md-3">
 					<a class="fancybox" rel="group" href="../images/photography/senior-2.png" target="_blank"><img src="../images/photography/senior-2.png" alt="" width="220"/></a>
@@ -110,42 +103,35 @@
 			</div>
 		</div> <!-- /container -->
 	</div><!-- /project-images -->
-	 	 
+
+	 
 	<!-- ******************** Gallery ******************** -->
 	<div id="gallery">
-		<div class="container">
+		<div class="container fadehover">
+		<!-- <i class="fa fa-user"></i> -->
+		<!-- <h2 class="title"><b>Hello Hello Hello</b></h2> -->
+		
+		<!-- bootstrap, no hover -->
 			<div class="row">
 				<div class="col-md-4">
-					<a href="advertising.html"><img src="../images/photography/ad-thumb.png" width="270" height="143"/></a>
-					<p align=center><span class="projecttitle">Advertising</span> | <span class="projecttype">Client Work</p>
+					<a href="humor.html"><img src="../images/arts/humor-thumb.png" width="270" height="143"/></a>
+					<p align=center><span class="projecttitle">Humor in Art</span> | <span class="projecttype">Course Work</p>
 				</div>
 				<div class="col-md-4">
-					<a href="senior.html"><img src="../images/photography/senior-thumb.png" width="270" height="143"/></a>
-					<p align=center><span class="projecttitle">Senior Portraits</span> | <span class="projecttype">Client Work</p>
+					<a href="electronic.html"><img src="../images/arts/electronic-thumb.png" width="270" height="143"/></a>
+					<p align=center><span class="projecttitle">Electronic Arts</span> | <span class="projecttype">Course Work</p>
 				</div>
-					<a href="casual.html"><img src="../images/photography/casual-thumb.png" width="270" height="143"/></a>
-					<p align=center><span class="projecttitle">Casual Photoshoots</span> | <span class="projecttype">Friends</p>
-				</div>
-			<div class="row">
 				<div class="col-md-4">
-					<a href="travel.html"><img src="../images/photography/travel-thumb.png" width="270" height="143"/></a>
-					<p align=center><span class="projecttitle">Travel Shots</span> | <span class="projecttype">Personal</p>
+					<a href="chinese.html"><img src="../images/arts/chinese-thumb.png" width="270" height="143"/></a>
+					<p align=center><span class="projecttitle">Chinese Brush Art</span> | <span class="projecttype">Course Work</p>
 				</div>
-			</div>
-		</div> <!-- /container -->
-	 </div><!-- /galleryimages -->
-	 
-	 
+			</div>	
+		</div><!-- /container -->
+	</div><!-- /gallery -->	 
 
 	 
   	<!-- ******************** Footer ******************** -->
 	<div data-include="../footer.html"></div>
 
-
-	
 </body>
-	
-
-
-
 </html>

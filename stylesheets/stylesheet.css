@@ -16,6 +16,20 @@ html {
  * Remove default margin.
  */
 
+@font-face 
+{
+	font-family: 'Myriad Pro';
+	src: url(../fonts/MyriadPro-Regular.otf);
+}
+
+@font-face 
+{
+	font-family: 'Myriad Pro';
+	src: url(../fonts/MyriadPro-Bold.otf);
+	font-weight:bold;
+}
+ 
+ 
 body {
   margin: 0;
 }

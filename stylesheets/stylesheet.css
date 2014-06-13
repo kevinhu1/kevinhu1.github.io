@@ -28,7 +28,21 @@ html {
 	src: url(../fonts/MyriadPro-Bold.otf);
 	font-weight:bold;
 }
+
+@font-face 
+{
+	font-family: 'Myriad Pro';
+	src: url(../fonts/MyriadPro-It.otf);
+	font-style: italic;
+} 
  
+ @font-face 
+{
+	font-family: 'Myriad Pro';
+	src: url(../fonts/MyriadPro-BoldIt.otf);
+	font-weight:bold;
+	font-style: italic;
+} 
  
 body {
   margin: 0;

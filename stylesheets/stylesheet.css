@@ -519,31 +519,8 @@ img.b {
     background-size: cover;
 }
 
-#fivedotpng {
-	background: url(../images/about.png) no-repeat center top;
-	background-color:white;
-	margin: 20px 0px;
-	padding-top:25px;
-    padding-bottom:25px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: left
-     center;
-	min-height: 200px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-#photo4 {
-	background: url(../images/photo4.png) no-repeat center top;
+#photo3 {
+	background: url(../images/photo2.png) no-repeat center top;
 	margin-top: 0px;
 	padding-top:25px;
     padding-bottom:25px;
@@ -566,19 +543,65 @@ img.b {
     -o-background-size: cover;
     background-size: cover;
 }
-#photo5 {
-	background: url(../images/photo5.png) no-repeat center top;
-	margin-top: 0px;
+
+#about1 {
+	background: url(../images/about1.png) no-repeat center top;
+	background-color:gray;
 	padding-top:25px;
     padding-bottom:25px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: left
      center;
-	min-height: 250px;
+	min-height: 220px;
 	width: 100%;
-	background-color:#EEEEEE;
-	color:#FFFFFF;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#about2 {
+	background: url(../images/about2.png) no-repeat center top;
+	background-color:gray;
+	padding-top:25px;
+    padding-bottom:25px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: left
+     center;
+	min-height: 220px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#about3 {
+	background: url(../images/about3.png) no-repeat center top;
+	background-color:gray;
+	padding-top:25px;
+    padding-bottom:25px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: left
+     center;
+	min-height: 220px;
+	width: 100%;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -916,7 +939,7 @@ h6.title-black {
   box-shadow: 0 0 5px #b1b1b1;
 }
 
-p.text {
+.text {
   color: #fff;
   font-size: 24px;
   font-family: 'Myriad Pro';

@@ -519,19 +519,18 @@ img.b {
     background-size: cover;
 }
 
-#photo3 {
-	background: url(../images/photo3.png) no-repeat center top;
-	margin-top: 0px;
+#fivedotpng {
+	background: url(../images/about.png) no-repeat center top;
+	background-color:white;
+	margin: 20px 0px;
 	padding-top:25px;
     padding-bottom:25px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: left
      center;
-	min-height: 250px;
+	min-height: 200px;
 	width: 100%;
-	background-color:#EEEEEE;
-	color:#FFFFFF;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -957,6 +956,9 @@ p.tblack {
 	margin: 20px 100px;
 }
 
+.margin-img {
+	margin: 20px 20px;
+}
 
 #main {
   margin-top: 20px;

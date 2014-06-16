@@ -946,6 +946,16 @@ h6.title-black {
   color:#000;
 }
 
+
+h6.footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 10px;
+  font-family:Myriad Pro;
+  text-align: center;
+  color:#000;
+}
+
 #footerwrap {
 	padding-top: 30px;
 	padding-bottom: 30px;

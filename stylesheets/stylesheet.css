@@ -469,6 +469,30 @@ img.b {
     background-size: cover;
 }
 
+#home1 {
+	background: url(../images/home1.png) no-repeat center top;
+	background-color:gray;
+	padding-top:25px;
+    padding-bottom:25px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: left
+     center;
+	min-height: 250px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 #photo1 {
 	background: url(../images/photo1.png) no-repeat center top;
 	margin-top: 0px;
@@ -519,8 +543,8 @@ img.b {
     background-size: cover;
 }
 
-#photo3 {
-	background: url(../images/photo2.png) no-repeat center top;
+#home2 {
+	background: url(../images/home2.png) no-repeat center top;
 	margin-top: 0px;
 	padding-top:25px;
     padding-bottom:25px;
@@ -553,7 +577,7 @@ img.b {
 	background-attachment: relative;
 	background-position: left
      center;
-	min-height: 220px;
+	min-height: 250px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -568,7 +592,7 @@ img.b {
 }
 
 #about2 {
-	background: url(../images/about2.png) no-repeat center top;
+	background: url(../images/photography/bigisland-2.png) no-repeat center top;
 	background-color:gray;
 	padding-top:25px;
     padding-bottom:25px;
@@ -576,7 +600,7 @@ img.b {
 	background-attachment: relative;
 	background-position: left
      center;
-	min-height: 220px;
+	min-height: 200px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -600,7 +624,7 @@ img.b {
 	background-attachment: relative;
 	background-position: left
      center;
-	min-height: 220px;
+	min-height: 250px;
 	width: 100%;
 	
     -webkit-background-size: 100%;

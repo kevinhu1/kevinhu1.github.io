@@ -809,7 +809,7 @@ a:hover {
 
 /* headers */
 h1.title {
-  font-size: 150px;
+  font-size: 120px;
   font-weight: bold;
   font-style: bold;
   font-family:Myriad Pro;
@@ -818,7 +818,7 @@ h1.title {
 }
 
 h1.title-sub {
-  margin: 120px 0px 0px;
+  margin: 90px 0px 0px;
   font-size: 150px;
   font-weight: bold;
   font-style: bold;

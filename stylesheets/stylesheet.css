@@ -818,8 +818,8 @@ h1.title {
 }
 
 h1.title-sub {
-  margin: 90px 0px 0px;
-  font-size: 150px;
+  margin: 120px 0px 0px;
+  font-size: 90px;
   font-weight: bold;
   font-style: bold;
   font-family:Myriad Pro;
@@ -828,7 +828,7 @@ h1.title-sub {
 }
 
 h2.title {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   font-style: bold;
   font-family:Myriad Pro;
@@ -837,7 +837,7 @@ h2.title {
 }
 
 h2.title-black {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   font-style: bold;
   font-family:Myriad Pro;
@@ -847,7 +847,7 @@ h2.title-black {
 
 h3.footer{
   margin: 10px 0px 5px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   font-style: bold;
   font-family:Myriad Pro;
@@ -857,7 +857,7 @@ h3.footer{
 
 h3.title {
   margin: 20px 20px 20px;
-  font-size: 24px;
+  font-size: 21px;
   font-weight: bold;
   font-style: bold;
   font-family:Myriad Pro;
@@ -867,7 +867,7 @@ h3.title {
 
 h3.button {
   margin-top: -15px;
-  font-size: 24px;
+  font-size: 21px;
   font-weight: bold;
   font-style: bold;
   font-family: Myriad Pro;
@@ -877,7 +877,7 @@ h3.button {
 
 h4.title {
   margin: -25px 25px -5px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   font-style: bold;
   font-family:Myriad Pro;
@@ -888,7 +888,7 @@ h4.title {
 h4.subtitle {
   margin-top: 0px;
   margin-bottom: -10px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   font-style: bold;
   font-family:Myriad Pro;
@@ -898,7 +898,7 @@ h4.subtitle {
 
 h4.subtitle-black {
   margin-top: 0px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   font-style: bold;
   font-family:Myriad Pro;
@@ -909,7 +909,7 @@ h4.subtitle-black {
 h4.footer {
   margin-top: 10px;
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 16px;
   font-family:Myriad Pro;
   text-align: center;
   color:#000;
@@ -917,7 +917,7 @@ h4.footer {
 
 h5.title {
   margin: 0px 0px 0px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   font-style: bold;
   font-family:Myriad Pro;
@@ -927,7 +927,7 @@ h5.title {
 
 h6.title {
   margin: 0px 0px 20px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   font-style: bold;
   font-family:Myriad Pro;
@@ -938,7 +938,7 @@ h6.title {
 
 h6.title-black {
   margin: 0px 0px 20px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   font-style: bold;
   font-family:Myriad Pro;

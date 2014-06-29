@@ -116,14 +116,6 @@ a {
   background: transparent;
 }
 
-/**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
-
-a:active,
-a:hover {
-  outline: 0;
-}
 
 /* Text-level semantics
    ========================================================================== */
@@ -616,7 +608,7 @@ img.b {
 
 
 #about3 {
-	background: url(../images/about3.png) no-repeat center top;
+	background: url(../images/about4.png) no-repeat center top;
 	background-color:gray;
 	padding-top:25px;
     padding-bottom:25px;
@@ -768,16 +760,24 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 900;
 }
 
-a {
-  color: #63a52a;
-  text-decoration: none;
-  transition: opacity ease-in-out 0.3s;
-  -webkit-transition: opacity ease-in-out 0.3s;  /* Safari <=6.1, Android <= 4.3 */
+
+a:link {
+    color: #EEEEEE;
 }
 
+/* visited link */
+a:visited {
+    color: #CCCCCC;
+}
+
+/* mouse over link */
 a:hover {
-  text-decoration: underline;
-  color: #90D355;
+    color: #BBBBBB;
+}
+
+/* selected link */
+a:active {
+    color: #DDDDDD;
 }
 
 /* for div on gallery pages */
@@ -1036,11 +1036,6 @@ p.tblack {
   visibility: hidden;
   transition: opacity ease-in-out 0.3s;
   -webkit-transition: opacity ease-in-out 0.3s;  /* Safari <=6.1, Android <= 4.3 */
-}
-
-.current-section a:hover {
-  opacity: 1;
-  filter:alpha(opacity=100);  /* IE 5-7 */
 }
 
 .current-section a.zip {

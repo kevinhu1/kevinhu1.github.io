@@ -768,22 +768,22 @@ a {
  }
 
 a:link {
-    color: #EEEEEE;
+    color: #222;
 }
 
 /* visited link */
 a:visited {
-    color: #CCCCCC;
+    color: #222;
 }
 
 /* mouse over link */
 a:hover {
-    color: #BBBBBB;
+    color: #222;
 }
 
 /* selected link */
 a:active {
-    color: #DDDDDD;
+    color: #222;
 }
 
 /* for div on gallery pages */

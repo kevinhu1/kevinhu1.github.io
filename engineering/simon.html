@@ -40,7 +40,7 @@
 				<p class="text margin" align="left">
 					<br>Spring 2013
 					<br>Hardware Languages: Verilog
-					<br>Applications: Xilinx
+					<br>Applications: Xilinx, Digilent Adept
 					<!-- <br>Development: Git -->
 				</p>
 				</div>
@@ -56,13 +56,55 @@
 	<div id="project-images">
 		<div class="container">
 			<div class="row margin">
-				<div class="col-md-3">
-					<!-- <a class="fancybox" rel="group" href="../images/photography/senior-1.png" target="_blank"><img src="../images/photography/senior-1.png" alt="" width="220" class="margin-img"/></a> -->
+				<div class="col-md-10 col-md-offset-1">
+					<p class="text-black" align="left">
+						In this project, our task was to replicate a Simon game on an FPGA board. In Simon, a light sequence would turn on and the player would have to press the button corresponding to the light. If the user is correct, an extra light will be added to the sequence and the player would input the entire sequence in order. This continues for eight rounds when the play will win. If the user inputs the wrong button or waits over three seconds without an input, the play loses and must reset the game.
+					</p>
+				</div>
+			</div>
+			<div class="row margin">			
+				<div class="col-md-10 col-md-offset-1">
+					<h2 class="title-black"><b>Modules:</b></h2>
+					<p class="text-black" align="left">
+						<b>Control</b>
+						<br>Determines the state of the circuit.
+						<br>-0: wait for start
+						<br>-1: display sequence
+						<br>-2: wait for user input
+						<br>-3: determine if end of round
+						<br>-4: Lose
+						<br>-5: Win
+
+						<br><br><b>RNG (Random Number Generator)</b>
+						<br>Runs on a 8-bit counter, incrementing by one for every clock cycle. When the game begins (ie start button is pressed), the value will be loaded to the rest of the circuit, which will be used as the sequence to follow.
+
+						<br><br><b>Compare</b>
+						<br>Waits for user input when in state 2, and compares the button input to the generated sequence from the RNG. The result will be sent to state, which will determine what happens next in the game (lose, win round, or win game).
+
+						<br><br><b>LED Display</b>
+						<br>Displays both the sequence and the button inputs in states 1 and 2, respectively. 
+
+						<br><br><b>Timer</b>
+						<br>Runs on a counter similar to RNG which will send a pulse for every half-second. Half-second intervals are used for LED sequence displaying and seven-segment flashing. Waiting for an input in state 2 will also run on this timer, but will wait for six half-seconds (three seconds).
+
+						<br><br><b>Debounced Button</b>
+						<br>Stops ringing of button input. This prevents a button press to be read as multiple pushes.
+
+						<br><br><b>Seven-Segment Display</b>
+						<br>Determines what to display on the seven-segment display:</p>
+					</div>
+				</div>
+				
+				<h2 class="title-black"><b><a href="http://vimeo.com/82542813">View the game in action here!</a></b></h2></p>
+			</div>
+			<div class="row margin">
+				<div class="col-md-3 col-md-offset-2">
+					<a href="../images/engineering/simon-1.png"><img src="../images/engineering/simon-1.png" width="350"/></a>
 				</div>
 			</div>
 		</div> <!-- /container -->
-	</div><!-- /project-images -->
-	 	 
+	</div><!-- /project-images -->	
+	
 	<!-- ******************** Gallery ******************** -->
 	<div id="gallery">
 		<div class="container fadehover">

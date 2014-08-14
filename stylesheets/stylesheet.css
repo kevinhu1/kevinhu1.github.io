@@ -461,6 +461,32 @@ img.b {
     background-size: cover;
 }
 
+#about-banner {
+	background: url(../images/about/banner.png) no-repeat center top;
+	margin-top: 0px;
+	padding-top:25px;
+    padding-bottom:25px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: left
+     center;
+	min-height: 300px;
+	width: 100%;
+	background-color:#EEEEEE;
+	color:#FFFFFF;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 #home1 {
 	background: url(../images/home1.png) no-repeat center top;
 	background-color:gray;

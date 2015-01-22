@@ -410,9 +410,9 @@ fieldset {
 #headerwrap {
 	/* background-color: #00b3fe; */
 	background-color: gray;
-	min-height: 724px;
-	padding-top: 80px;
-	padding-bottom: 100px;
+	min-height: 100px;
+	padding-top: 10px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 
@@ -841,6 +841,7 @@ a:active {
 
 /* headers */
 h1.title {
+  margin: 0px;
   font-size: 120px;
   font-weight: bold;
   font-style: bold;
@@ -850,7 +851,7 @@ h1.title {
 }
 
 h1.title-sub {
-  margin: 120px 0px 0px;
+  margin: 30px 0px 0px;
   font-size: 90px;
   font-weight: bold;
   font-style: bold;
@@ -871,7 +872,8 @@ h1.title-engr {
 
 
 h2.title {
-  font-size: 30px;
+  margin: -5px;
+  font-size: 25px;
   font-weight: bold;
   font-style: bold;
   font-family:Myriad Pro;
@@ -879,8 +881,17 @@ h2.title {
   color:#FFFFFF;
 }
 
+h2.title-about {
+  margin: -5px;
+  font-size: 40px;
+  font-style: bold;
+  font-family:Myriad Pro;
+  text-align: center;
+  color:#FFFFFF;
+}
+
 h2.title-black {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   font-style: bold;
   font-family:Myriad Pro;

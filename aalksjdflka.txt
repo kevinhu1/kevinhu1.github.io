@@ -1,0 +1,28 @@
+	<a name="ssl"></a> 
+	<!-- ******************** Text 2 ******************** -->
+	<div id="skills">
+	 	<div class="container centered">
+			<div class="col-lg-10 col-lg-offset-1">
+			<h2 class="title-black"><b>SHORT STORY LONG</b></h2>
+			
+			<!--
+			<p class="text-black" align="left"><img src="images/about/1.png" align="left" class="margin-img"><b>Hai!</b> My name is <b>Kevin Hu</b>, born and raised from the tiny state of <b>Hawai'i</b> on the island of <b>O'ahu</b>.</p>
+			<p class="text-black" align="left">My passion lies in applying logic and critical thinking to creatively help others achieve their goals, from marketing to simply pursuing happiness. As I am studying for concurrent degrees in both <b>Computer Engineering</b> as well as <b>Studio Art</b> at the wonderful <b>University of Hawai'i at Manoa</b>, I've come so much closer to making this passion (if you haven't caught on, on this website we'll call this combination <b><i>MAGIC</i></b>) a reality as I graduate next semester in <b>Fall 2014</b>!</p>
+			
+			<p class="text-black" align="left"><img src="images/about/2.png" align="right" class="margin-img">Believe it or not, there is a <b>science</b> behind <b>everything</b>, even (or especially) in the arts! From the almost-obvious computer science required to code beautiful web pages and mobile apps to being able to <b>direct</b> others on how to make interesting art (to even making your audience do exactly what you want!), it's quite mind-blowing. With an <b>engineering</b> background, I am always striving to logically come up with innovative solutions that actually <b>work</b>.</p>
+			
+			<p class="text-black" align="left"><img src="images/about/3.png" align="left" class="margin-img"><img src="images/about/4.png" align="right" class="margin-img">When I'm not dealing with engineering or artsy things, I'm <i>always</i> striving to learn more about the world and how everything works. I also love just strengthening my creativity through various forms of non-traditional arts. From the best humor in the form of <b>bad puns</b> (hey, with a last name like Hu, what did you expect?), to learning <i>Everyone's a Little Bit Racist</i> on the <b>piano</b>, it never ends. On the occasion I do like to play some video games, but only a select few. Not those typical shooter games (unless if it's with a <b>camera</b>) or those games that share the same acronym as the most overused expression in chats, but those where I can be more creative. <b>Super Smash Bros Brawl</b>, <b>Pokemon</b>, <b>Mario Kart</b>, <b>Tetris</b>, and <b>Quiz RPG</b> (a mobile app trivia RPG) are my guilty pleasures at the moment, occasionally with some other Nintendo games. Outside of gaming, I'm trying to find the perfect balance between <b>Yelping</b> every single place I love to <b>pig out</b> at and <b>running</b> to get that natural runner's high (and to make up for all the ice cream I dive in for...). The rest of my free time is spent <b>singing</b> horribly at random <b>karaoke</b> places and learning from <b>reading</b> a good old book.</p>
+			
+			<hr width="60%" color="#000">
+			
+			<p class="text-black" align="left">With so much happening in this world, there's no time to waste, no energy to hate. Enjoy every moment and open your heart out to what the world has to offer!</p>
+			<p class="text-black" align="left"><b>Feel free to contact me in any of the social media below, or check out the Contact page above for more options to contact me.</b> From talking about careers to gaming to anything, really, feel free to make a friend!</p>
+			</p>
+			<center><p class="text"><br><a href="#contents"><img src="images/code.png" class="img-responsive"><b>UP</b></a></p></center>
+			
+			-->
+			
+			</div><!-- /container -->
+		</div>
+	 </div><!-- /sectionbody -->
+	 
